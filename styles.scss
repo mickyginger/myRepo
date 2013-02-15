@@ -1,0 +1,11 @@
+$red: #f03;
+
+.red{
+	background: {
+		color: $red;
+		image: url(/images/path/to/image.png);
+		position: center;
+		repeat: none;
+	}
+	
+}
