@@ -8,7 +8,7 @@ function start(route, handle){
 		
 		response.writeHead(200, {"Content-Type": "text/plain"});
 		var content = route(handle, pathname);
-		response.write(pathname);
+		response.write(content);
 		response.end();
 	}).listen(8080);
 
